@@ -1,9 +1,9 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
 import {RouterModule} from "@angular/router";
 import {ReactiveFormsModule} from "@angular/forms"
 
-import { AppComponent } from './app.component';
+import {AppComponent} from './app.component';
 import {HomeComponent} from "./home.component";
 import {ProductDetailComponent} from "./product.component";
 import {LoginComponent} from "./login.component";
@@ -24,8 +24,9 @@ import {UnsavedChangesGuard} from "./unsaved-changes.guard";
     ReactiveFormsModule,
     RouterModule, routing
   ],
-  providers:[{provide: LocationStrategy, useClass: HashLocationStrategy},
-             LoginGuard,UnsavedChangesGuard ],
+  providers: [{provide: LocationStrategy, useClass: HashLocationStrategy},
+    LoginGuard, UnsavedChangesGuard],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}
