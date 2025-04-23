@@ -59,10 +59,6 @@ array-flatten@1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/array-flatten/-/array-flatten-1.1.1.tgz#9a5f699051b1e7073328f2a008968b64ea2955d2"
 
-async-limiter@~1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/async-limiter/-/async-limiter-1.0.0.tgz#78faed8c3d074ab81f22b4e985d79e8738f720f8"
-
 body-parser@1.18.2, body-parser@^1.18.2:
   version "1.18.2"
   resolved "https://registry.yarnpkg.com/body-parser/-/body-parser-1.18.2.tgz#87678a19d84b47d859b83199bd59bce222b10454"
@@ -276,7 +272,7 @@ raw-body@2.3.2:
     iconv-lite "0.4.19"
     unpipe "1.0.0"
 
-safe-buffer@5.1.1, safe-buffer@~5.1.0:
+safe-buffer@5.1.1:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.1.1.tgz#893312af69b2123def71f57889001671eeb2c853"
 
@@ -334,10 +330,6 @@ typescript@2.6.2:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.6.2.tgz#3c5b6fd7f6de0914269027f03c0946758f7673a4"
 
-ultron@~1.1.0:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/ultron/-/ultron-1.1.1.tgz#9fe1536a10a664a65266a1e3ccf85fd36302bc9c"
-
 unpipe@1.0.0, unpipe@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/unpipe/-/unpipe-1.0.0.tgz#b2bf4ee8514aae6165b4817829d21b2ef49904ec"
@@ -350,10 +342,7 @@ vary@~1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
 
-ws@^3.3.3:
-  version "3.3.3"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-3.3.3.tgz#f1cf84fe2d5e901ebce94efaece785f187a228f2"
-  dependencies:
-    async-limiter "~1.0.0"
-    safe-buffer "~5.1.0"
-    ultron "~1.1.0"
+ws@^8.17.1:
+  version "8.17.1"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-8.17.1.tgz#9293da530bb548febc95371d90f9c878727d919b"
+  integrity sha512-6XQFvXTkbfUOZOKKILFG1PDK2NDQs4azKQl26T0YS5CxqWLgXajbPZ+h4gZekJyRqFU8pvnbAbbs/3TgRPy+GQ==
